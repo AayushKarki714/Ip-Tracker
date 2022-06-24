@@ -4,9 +4,7 @@ import { Marker, Popup, useMap } from "react-leaflet";
 function CustomMarker({ data }) {
   const map = useMap();
 
-  const pos = data.isp
-    ? { lat: data.location.lat, lng: data.location.lng }
-    : { lat: 40.6501, lng: -73.94958 };
+  const pos = { lat: data.location.lat, lng: data.location.lng };
 
   map.flyTo({
     lat: data.location.lat,
