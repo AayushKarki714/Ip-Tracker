@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.t {
+  background-color: #2b2b2b;
+  background-color: #969696;
+}
+
+.leaflet-container {
+  width: 100%;
+  flex-grow: 1;
+}
